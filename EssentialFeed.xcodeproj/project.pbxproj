@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2D7C0B2542393B00E4364E /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D7C0A2542393B00E4364E /* TestFile.swift */; };
 		3D36A22E2457BCFD00C4EE9E /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D36A22D2457BCFD00C4EE9E /* EssentialFeedAPIEndToEndTests.swift */; };
 		3D36A2302457BCFD00C4EE9E /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D44728524358D6C00AD9A6C /* EssentialFeed.framework */; };
 		3D36A2362457C4A000C4EE9E /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE46CD6245286A200091DD6 /* XCTestCase+MemoryLeakTracking.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D2D7C0A2542393B00E4364E /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		3D36A22B2457BCFD00C4EE9E /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D36A22D2457BCFD00C4EE9E /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
 		3D36A22F2457BCFD00C4EE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				3DF818DB2447EF3900BAF190 /* FeedItemsMapper.swift */,
 				3DF818D92447EE3E00BAF190 /* HTTPClient.swift */,
 				3DE46CD8245296F800091DD6 /* URLSessionHTTPClient.swift */,
+				3D2D7C0A2542393B00E4364E /* TestFile.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				3DF818DC2447EF3900BAF190 /* FeedItemsMapper.swift in Sources */,
 				3D4472A424358F8100AD9A6C /* FeedLoader.swift in Sources */,
 				3D97DCCC24396F6A00DFF51C /* RemoteFeedLoader.swift in Sources */,
+				3D2D7C0B2542393B00E4364E /* TestFile.swift in Sources */,
 				3DF818DA2447EE3E00BAF190 /* HTTPClient.swift in Sources */,
 				3D4472A224358F2100AD9A6C /* FeedItem.swift in Sources */,
 				3DE46CD9245296F800091DD6 /* URLSessionHTTPClient.swift in Sources */,
